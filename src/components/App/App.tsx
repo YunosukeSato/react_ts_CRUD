@@ -1,6 +1,8 @@
 import './App.css'
 import Header from '../ToolBar/Header'
 import FilterForm from '../FilterForm/FilterForm'
+import DataTable from '../DataTable/DataTable'
+import Pagination from '../Pagination/Pagination'
 
 function App() {
 
@@ -8,6 +10,8 @@ function App() {
     <>
     <Header />
     <FilterForm />
+    <DataTable />
+    <Pagination />
     </>
   )
 }
