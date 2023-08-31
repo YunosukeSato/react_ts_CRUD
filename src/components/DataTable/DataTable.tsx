@@ -44,6 +44,8 @@ export function DataTable() {
     created_at: '',
     updated_at: '',
   };
+  console.log(allData);
+  
   const [newData, setNewData] = useState(data)
   const [open, setOpen] = useState(false);
   const [isFilled, setIsFilled] = useState(true)

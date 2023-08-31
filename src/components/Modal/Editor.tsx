@@ -106,7 +106,7 @@ function Editor(
             setUpdatedData({ ...updatedData, url: e.target.value })
           }
         />
-        {/* <TextField
+        <TextField
           id="standard-basic"
           label="Created at"
           variant="standard"
@@ -125,7 +125,7 @@ function Editor(
           onChange={(e) =>
             setUpdatedData({ ...updatedData, updated_at: e.target.value })
           }
-        /> */}
+        />
         <Stack spacing={2} direction="row">
           <Button
             variant="text"
